@@ -1,0 +1,25 @@
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.pfx
+*.key
+credentials.json
+secrets.json
+
+# Project 2 temporary credentials
+Project2-Temporary-Passwords.txt
+*Temporary-Password*.txt
+*Temporary-Passwords*.txt
+
+# PowerShell / temporary files
+*.tmp
+*.temp
+
+# Editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

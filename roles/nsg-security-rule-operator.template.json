@@ -1,0 +1,18 @@
+{
+  "Name": "NRG NSG Security Rule Operator",
+  "IsCustom": true,
+  "Description": "Least-privilege role that can view NSGs and create, modify, or delete NSG security rules without managing the NSG itself or Azure RBAC.",
+  "Actions": [
+    "Microsoft.Resources/subscriptions/resourceGroups/read",
+    "Microsoft.Network/networkSecurityGroups/read",
+    "Microsoft.Network/networkSecurityGroups/securityRules/read",
+    "Microsoft.Network/networkSecurityGroups/securityRules/write",
+    "Microsoft.Network/networkSecurityGroups/securityRules/delete"
+  ],
+  "NotActions": [],
+  "DataActions": [],
+  "NotDataActions": [],
+  "AssignableScopes": [
+    "__ASSIGNABLE_SCOPE__"
+  ]
+}
